@@ -20,7 +20,7 @@
         .pokeContainer {
             display: flex;
             flex-flow: row wrap;
-            justify-content: space-around;
+            justify-content: center;
             padding: 20px;
         }
         
@@ -30,7 +30,7 @@
             width: 180;
             border-radius: 6px;
             padding: 15px 20px 20px 20px;
-            margin: 20px 10px 20px 10px;
+            margin: 20px 20px 20px 20px;
             background-color: white;
             box-shadow: 5px 5px 10px 0px #ccc;
         }
@@ -151,9 +151,7 @@
 <body>
     <h1 class="title">Pokemon Gallery</h1>
     <div class="searchBar">
-        <input type="text" id="searchBox" placeholder="Search your pokemon here">
-        <img src="icons8-search.svg" onclick="searchPoke()" alt="search" class="searchButton">
-        <!-- <button onclick="searchPoke()">Search</button> -->
+        <input type="text" id="searchBox" placeholder="Search your pokemon here" oninput="searchPoke()">
     </div>
     <div class="pokeContainer">
         <div class="pokemon">
