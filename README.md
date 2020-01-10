@@ -1,4 +1,4 @@
 # pokemon
 
 
-go to # https://abhilashkasula.github.io/pokemon/
+https://abhilashkasula.github.io/pokemon/
